@@ -1,9 +1,8 @@
-webHookURL = "https://discordapp.com/api/webhooks/665885464787419136/CHiQQ8qGLMNxl63lyhxxSFZJ3oG4pwgMogihVUxoNU4GcM94fWC_0p8eeOTRubbwbnsj" -- The Webhook link to post too.
-local DISCORD_NAME = "Rapor Botu" -- Changes the name of the bot (default : Report Bot)
-local DISCORD_IMAGE = "https://newsfeed.org/wp-content/uploads/social-media-reports-Facebook-reports-Instagram-reports.jpg" -- Any Image URL works
-local role = "662003259137065007" -- Must be a role id
-enableReport = true -- Enable /report command
-
+webHookURL = "https://discordapp.com/api/webhooks/665885464787419136/CHiQQ8qGLMNxl63lyhxxSFZJ3oG4pwgMogihVUxoNU4GcM94fWC_0p8eeOTRubbwbnsj" -- Raporlamalar Hangi Discord Odasına Düşmesini İstiyorsan O Odaının Webhook u
+local DISCORD_NAME = "Rapor Botu" -- Botun Discordaki Görülücek İsmi
+local DISCORD_IMAGE = "https://newsfeed.org/wp-content/uploads/social-media-reports-Facebook-reports-Instagram-reports.jpg" -- Herhangi Bir Resim URL si Ekleyebilirsin
+local role = "662003259137065007" -- Bota Verilicek Role Id Kesinlikle Herkesten Üstün Rol Vermen Lazım
+enableReport = true -- /report Komutunu Aktif Hale Getirir
 local role = "<@&"..role..">"
 
 if enableReport thens
