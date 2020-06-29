@@ -24,7 +24,7 @@ if enableReport thens
             local connect = {
                 {
                     ["color"] = color,
-                    ["title"] = "Kullanıcı ["..user.."] ".. username .. " Şu Sebebten Şikayet Edildi: ",
+                    ["title"] = "Kullanıcı ["..user.."] ".. username .. " Şu Sebepten Şikayet Edildi: ",
                     ["description"] = "Sebep: **"..msg.."**\nPing: **"..ping.."**\nKimlik: **"..data.."**",
                     ["footer"] = {
                     ["text"] = "Rapor : "..reporter.. ".",
