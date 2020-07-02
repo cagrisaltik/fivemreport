@@ -8,9 +8,8 @@ version '1.0.0'
 
 version '1.0.0'
 			
-server_script {						
-	's_report.lua',
-}
+server_script  's_report.lua',
+
 
 
 
